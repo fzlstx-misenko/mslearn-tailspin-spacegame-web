@@ -46,7 +46,7 @@ jobs:
         projects: '**/*.csproj'
     
   - job: 
-      Package_Tailspin_Space_Game
+      Release_Tailspin_Space_Game
     
     steps:
       - task: DotNetCoreCLI@2
